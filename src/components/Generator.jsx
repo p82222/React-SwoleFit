@@ -89,7 +89,7 @@ export default function Generator({ poison, setPoison, muscles, setMuscles, goal
             </div>
 
             <Header index="03" title="Train like a warrior" description="Select your ultimate objective." />
-            <div className="grid grid-col-3 sm:grid-cols-3 gap-4">
+            <div className="grid grid-col-1 sm:grid-col-3 sm:grid-cols-3 gap-4">
                 {Object.keys(SCHEMES).map((scheme, schemeIndex) => (
                     <button
                         onClick={() => setGoal(scheme)}

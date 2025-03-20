@@ -17,7 +17,7 @@ function App() {
       return
     }
 
-    let newWorkout = generateWorkout(poison, muscles, goal)
+    let newWorkout = generateWorkout({poison, muscles, goal})
     setWorkout(newWorkout)
   }
 
